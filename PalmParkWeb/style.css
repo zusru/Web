@@ -1,0 +1,85 @@
+/* إعادة تعيين التنسيقات الأساسية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* التنسيق العام للصفحة */
+body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* تنسيق الهيدر */
+header {
+    background-color: #1a1a3d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+/* تنسيق الشعار مع المربع الأحمر */
+#brand-logo {
+    border: 2px dashed red;
+    padding: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* تنسيق اسم العلامة التجارية */
+.brand-name {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: auto;
+}
+
+/* تنسيق الروابط في القائمة */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+/* تنسيق الروابط عند تمرير الماوس */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* القسم الرئيسي */
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8a73b8;
+    text-align: center;
+}
+
+/* النص داخل الصفحة الرئيسية */
+.home-page h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.home-page p {
+    font-size: 18px;
+}
+
+/* تنسيق الفوتر */
+footer {
+    background-color: #1a1a3d;
+    color: #fff;
+    text-align: center;
+    padding: 1.5px 20px;
+    font-size: 17px;
+}
+
+/* تنسيق النصوص في الفوتر */
+footer p {
+    margin: 5px 0;
+}
