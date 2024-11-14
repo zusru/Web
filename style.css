@@ -56,8 +56,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #8a73b8;
+    background-image: url('image/1.jpg');
+    background-size: cover; /* تجعل الصورة تغطي كامل الصفحة */
+    background-position: center; /* تجعل الصورة متمركزة */
+    background-repeat: no-repeat; /* تمنع تكرار الصورة */
     text-align: center;
+    color: #fff; /* تغيير لون النص ليكون مناسباً للعرض فوق الصورة */
 }
 
 /* النص داخل الصفحة الرئيسية */
